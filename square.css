@@ -1,0 +1,22 @@
+.square {
+    border: 2px inherit  black;
+    background-color: white;
+    height:100px;
+    width:100px;
+
+    padding: 0px;
+    position: inherit;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  
+ }
+
+
+ .row {
+   
+    min-height:100px;
+    max-height:100px;
+ 
+ }
+ 
