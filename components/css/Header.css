@@ -1,0 +1,22 @@
+
+.disp{
+	text-align: left;
+	text-transform: uppercase;
+	border-right:1px solid #979797;
+	font-size: 14px;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	display: inline-block;
+	vertical-align: top;
+	padding:12px 15px;
+}
+.break_line_list{
+	width:100%;
+	border-bottom:1px solid #D5D6D6;
+	padding-left:0px;
+}
+.nopadding {
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}

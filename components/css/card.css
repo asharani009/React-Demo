@@ -1,0 +1,95 @@
+.card_container{
+	margin: 20px 24px 0px 24px;
+}
+
+.card_title_text{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.icon_text{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+}
+
+.icon_spacing{
+	margin-right: 10px;
+}
+
+.card_snapshot{
+	float:right;
+}
+.clearfix{
+	clear:both;
+}
+
+.card-deck {
+  margin: 0 -15px;
+  justify-content: space-between;
+}
+
+.card-link{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color:#0069D2;
+	margin-bottom: 0px;
+}
+
+.image_container_overlay .after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    display: block;
+    color: #FFF;
+    background: rgba(0, 12, 40, .6);
+}
+
+.overlay_content{
+	margin-top: 30%;
+	text-align: center;
+}
+
+.overlay_txt
+{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+}
+.card-deck .card {
+  margin: 0 0 1rem;
+}
+.image_container_overlay{
+	position: relative;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .card-deck .card {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+  }
+}

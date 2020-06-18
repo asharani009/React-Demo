@@ -1,0 +1,155 @@
+.button {
+  background-color: #0069D2;
+  border: none;
+  color: white;
+  padding:8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  border-radius:5px;
+}
+
+.nav_disp{
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	display: inline-block;
+	vertical-align: bottom;
+	padding:20px 15px 0px;
+}
+
+.navbar_button{
+	padding:12px 0px;
+	float: right;
+}
+#backgroundImage{
+  background: url('../images/ifit-coach-logo.svg');
+  width: 175px;
+  height: 24px;
+  margin-top: 15px;
+}
+
+.menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  overflow: hidden;
+}
+
+.menu-btn{
+  display: none;
+}
+
+ .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 0px 5px 20px;
+  position: relative;
+  user-select: none;
+}
+
+ .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+ .menu-icon .navicon:before,
+ .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+ .menu-icon .navicon:before {
+  top: 5px;
+}
+
+ .menu-icon .navicon:after {
+  top: -5px;
+}
+
+
+. .menu-btn {
+  display: none;
+}
+
+ .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+ .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+ .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+ .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+
+@media (min-width: 768px) {
+   nav_disp.li {
+    float: left;
+  }
+ 
+  .menu {
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color:#2E3134;
+  }
+   .menu-icon {
+    display: none;
+  }
+  .nav_disp{
+    display: block;
+  }
+}
+
+@media (max-width: 812px) {
+    .nav_disp{
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .button{
+    font-size: 10px;
+    padding:4px 5px;
+  }
+}
+
+
+        
